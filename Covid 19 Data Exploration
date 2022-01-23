@@ -155,3 +155,7 @@ Join dbo.covid19accine vac
 	and dea.date = vac.date
 where dea.continent is not null 
 
+--Viewing the Created View
+Select*
+From dbo.PercentPopulationVaccinated
+
